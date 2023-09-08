@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 637px;
+    position: relative;
+}
+
+.content h1 {
+    width: 298px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 88px;
+    text-align: start;
+}
+
+.content p {
+    width: 519px;
+    font-size: 24px;
+    opacity: 80%;
+    text-align: start;
+}
+
+.content button {
+    width: 176px;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    line-height: 18px;
+    padding: 24px 48px;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+.card {
+    align-self: flex-end;
+    width: 668px;
+    padding: 16px 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.card p {
+    font-size: 22px;
+    opacity: 80%;
+}
+
+
+#shape {
+    width: 355px ;
+    height: 126px;
+    position: absolute;
+    top: 27px;
+    left: 434px;
+}
+
+#dawn {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 327px;
+    right: -133px;
+    z-index: 3;
+}
+
+
+#dawn2 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 559px;
+    right: -629px;
+}
+
+
+#spiral {
+    position: absolute;
+    width: 122px;
+    height: 270px;
+    bottom: 63px;
+    left: 77px;
+}
+
+
+#img1 {
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    bottom: 12px;
+    left: 336px;
+}
+
+
+#img2 {
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    bottom: 205px;
+    left: 653px;
+}
+
+
+#img3 {
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    top: 21px;
+    left: 969px;
+}
